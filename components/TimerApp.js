@@ -3,26 +3,6 @@ import { Button, StyleSheet, Text, View } from "react-native";
 import AddTimer from "./AddTimer";
 import Timer from "./Timer";
 
-// var myloop = [];
-
-// for (let i = 0; i < 10; i++) {
-//   myloop.push(
-//     <View key={i}>
-//     <Text style={{ textAlign: 'center', marginTop: 5 }} >{i}</Text>
-//     </View>
-//   );
-// }
-
-//  return (
-
-//         <View >
-//           <Text >Welcome to React Native!</Text>
-//            {myloop}
-//         </View>
-
-//     );
-//   }
-
 export default function TimerApp(props) {
   console.log("TimerApp props", props.timers);
   const timerList = [];

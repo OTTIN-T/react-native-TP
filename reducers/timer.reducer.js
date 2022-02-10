@@ -4,7 +4,7 @@ let initialState = {
 
 let timersReducer = function (state = initialState, action) {
   switch (action.type) {
-    case "TIMERS":
+    case "ADD_TIMER":
       return {
         timers: state.timers + action.payload,
       };

@@ -1,6 +1,6 @@
-export function addTimer() {
+export function addTimer({ title, subtitle, index }) {
   return {
-    type: "TIMERS",
+    type: "ADD_TIMER",
     payload: 1,
   };
 }
